@@ -1,7 +1,7 @@
 const { createSlice, createAsyncThunk } = require("@reduxjs/toolkit");
 const { default: axios } = require("axios");
 const store = require("../../app/store");
-const { fetchRelatedPosts } = require("../relatedPosts");
+const { fetchRelatedPosts } = require("../relatedPosts/relatedPosts");
 
 // initial state
 const initialState = {

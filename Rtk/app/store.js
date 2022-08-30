@@ -1,6 +1,6 @@
 const { postReducer } = require("../features/singlePost/singlePost");
 const { configureStore } = require("@reduxjs/toolkit");
-const { relatedPostsReducer } = require("../features/relatedPosts");
+const { relatedPostsReducer } = require("../features/relatedPosts/relatedPosts");
 const { default: logger } = require("redux-logger");
 
 const store = configureStore({
